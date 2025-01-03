@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color:#4361ee;
+    padding: 20px;
+    font-size: larger;
+    color: aliceblue;
+}
+
+.addBook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#addBook{
+    font-size: large;
+    padding: 20px;
+    width: 160px;
+    margin: 20px;
+    border: 5px solid #4361ee;
+    background-color: #90e0ef;
+    border-radius: 10px;
+    color: #4361ee;
+}
+
+#bookList{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#bookList div{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #023e8a;  
+    border-radius: 20px;
+}
+
+#addDetails{
+    width: 350px;
+    position: fixed;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: #5fa8d3;
+    border: 5px solid #003459;
+    border-radius: 10px;
+}
+
+#addDetails button{
+    background-color: #007ea7;
+    color: aliceblue;
+    border: 2px solid #003459;
+    border-radius: 5px;
+}
+
+#bookList div p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+#bookList div button{
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.formElement{
+    font-size: larger;
+    margin: 20px;
+}
+
+.formElement button{
+    padding: 7px;
+    width: 90px;
+}
+
